@@ -334,5 +334,4 @@ def start():
         else:
             break
 
-gi
 start()
