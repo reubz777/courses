@@ -3,7 +3,6 @@ from os import path
 import json
 import random
 
-
 class Bank():
 
     # Инициализация объекта
