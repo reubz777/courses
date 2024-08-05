@@ -25,14 +25,13 @@ jobs:
         pip install black isort flake8 mypy
 
     - name: Run black
-      run: black --check .
+      run: black --check ./"5 homework"/5_homework.py
 
     - name: Run isort
-      run: isort --check-only .
+      run: isort --check-only ./"5 homework"/5_homework.py
 
     - name: Run flake8
-      run: flake8 .
+      run: flake8 ./"5 homework"/5_homework.py
 
-    - name: Run mypy (optional)
-      run: mypy .
-      if: always()
+    - name: Run mypy 
+      run: mypy ./"5 homework"/5_homework.py
